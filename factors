@@ -22,7 +22,3 @@ with open(argv[1]) as f:
         if n % 2 == 0:
             print("{}*2".format(n//2))
             continue
-        for i in factor(n):
-            print("{}*{}".format(n//i, i))
-            break
-        print()
